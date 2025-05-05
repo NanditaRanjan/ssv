@@ -15,7 +15,7 @@ The Sorting and Searching Visualizer is a comprehensive and innovative web appli
 To run the Sorting and Searching Visualizer locally, follow these steps:
 
 1. Clone the repository:<br />
-```git clone https://github.com/TheSuraj01/Sorting-and-Searching-Visualizer.git```
+```git clone https://github.com/NanditaRanjan/ssv.git```
 2. Navigate to the project directory: <br />
 ```cd Sorting-and-Searching-Visualizer```
 3. Install the required dependencies: <br />
@@ -65,7 +65,7 @@ You can adjust the speed of the visualization using the provided slider or pause
 
 ## Contributing
 
-Contributions to the Sorting and Searching Visualizer project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/TheSuraj01/Sorting-and-Searching-Visualizer).
+Contributions to the Sorting and Searching Visualizer project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/NanditaRanjan/ssv).
 
 If you would like to contribute code changes, please follow these steps:
 
@@ -82,5 +82,5 @@ Please ensure that your code follows the project's coding standards and includes
 
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
-- LinkedIn: [www.linkedin.com/in/surajyadav01](www.linkedin.com/in/surajyadav01)
-- GitHub: [https://github.com/TheSuraj01](https://github.com/TheSuraj01)
+- LinkedIn: [www.linkedin.com/in/nandita-ranjan](https://www.linkedin.com/in/nandita-ranjan/)
+- GitHub: [https://github.com/NanditaRanjan](https://github.com/NanditaRanjan)
