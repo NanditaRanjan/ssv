@@ -1,58 +1,84 @@
 import "./styles/aboutstyle.css";
-import ProfileImage from "./resources/Profile.jpg";
-import LinkedInIcon from "./resources/linkedin.png";
-import GitHubIcon from "./resources/github.png";
-import InstagramIcon from "./resources/instagram.png";
-import TwitterIcon from "./resources/twitter.png";
+
 
 function About() {
   return (
-    <div className="body">
-      <h1 className="kn">Know Me</h1>
-      <div className="creators mt-4">
-        <div className="cards">
-          <div className="details">
-            <div className="image">
-              <div className="img">
-                <img src={ProfileImage} alt="" />
-              </div>
-            </div>
-            <div className="data">
-              <h3 className="name">
-                <span>
-                  <h2>Suraj Kumar</h2>
-                </span>
-                <span>
-                  <h2>Yadav</h2>
-                </span>
-              </h3>
-              <p className="designation">MERN Developer, ML, JAVA Developer</p>
-              <div className="social-media-list">
-                <ul>
-                  <li>
-                    <a target="_blank" href="http://www.linkedin.com/in/suraj-kumar-yadav-318230238" rel="noreferrer">
-                      <img className="icn" src={LinkedInIcon} alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://github.com/TheSuraj01" rel="noreferrer">
-                      <img className="icn" src={GitHubIcon} alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://www.instagram.com/surajkumaryadav.in/" rel="noreferrer">
-                      <img className="icn" src={InstagramIcon} alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://twitter.com/SURAJRAIZADA6" rel="noreferrer">
-                      <img className="icn" src={TwitterIcon} alt="" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+    <div style={{ fontFamily: "Arial, sans-serif", textAlign: "center", marginTop: "20px" }}>
+      <h1 style={{ color: "#4CAF50", marginBottom: "30px" }}>Team Members</h1>
+      <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "20px" }}>
+        {/* Suraj Kumar Yadav */}
+        <div
+          style={{
+            border: "2px solid #4CAF50",
+            borderRadius: "10px",
+            padding: "20px",
+            width: "250px",
+            backgroundColor: "#f9f9f9",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          }}
+        >
+          <h2 style={{ color: "#333" }}>Suraj Kumar Yadav</h2>
+          <p style={{ fontWeight: "bold", color: "#555" }}>Roll No: 21052047</p>
+        </div>
+
+        {/* Nandita Ranjan */}
+        <div
+          style={{
+            border: "2px solid #4CAF50",
+            borderRadius: "10px",
+            padding: "20px",
+            width: "250px",
+            backgroundColor: "#f9f9f9",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          }}
+        >
+          <h2 style={{ color: "#333" }}>Nandita Ranjan</h2>
+          <p style={{ fontWeight: "bold", color: "#555" }}>Roll No: 21052083</p>
+        </div>
+
+        {/* Chandan Gupta */}
+        <div
+          style={{
+            border: "2px solid #4CAF50",
+            borderRadius: "10px",
+            padding: "20px",
+            width: "250px",
+            backgroundColor: "#f9f9f9",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          }}
+        >
+          <h2 style={{ color: "#333" }}>Chandan Gupta</h2>
+          <p style={{ fontWeight: "bold", color: "#555" }}>Roll No: 21051987</p>
+        </div>
+
+        {/* Shivani Kumari */}
+        <div
+          style={{
+            border: "2px solid #4CAF50",
+            borderRadius: "10px",
+            padding: "20px",
+            width: "250px",
+            backgroundColor: "#f9f9f9",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          }}
+        >
+          <h2 style={{ color: "#333" }}>Shivani Kumari</h2>
+          <p style={{ fontWeight: "bold", color: "#555" }}>Roll No: 2105573</p>
+        </div>
+
+        {/* Abhishek Kumar */}
+        <div
+          style={{
+            border: "2px solid #4CAF50",
+            borderRadius: "10px",
+            padding: "20px",
+            width: "250px",
+            backgroundColor: "#f9f9f9",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          }}
+        >
+          <h2 style={{ color: "#333" }}>Abhishek Kumar</h2>
+          <p style={{ fontWeight: "bold", color: "#555" }}>Roll No: 2105598</p>
         </div>
       </div>
     </div>
